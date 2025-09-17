@@ -14,6 +14,6 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     - name: Install Dependencies
-      run: apt update && apt install libosip2
+      run: sudo apt update && sudo apt install libosip2
     - name: make
       run: make
